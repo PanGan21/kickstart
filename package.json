@@ -1,0 +1,26 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "react-ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanGan21/kickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PanGan21/kickstart/issues"
+  },
+  "homepage": "https://github.com/PanGan21/kickstart#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "ganache-cli": "^6.8.1",
+    "mocha": "^7.0.0",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.26"
+  }
+}
