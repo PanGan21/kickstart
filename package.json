@@ -4,7 +4,8 @@
   "description": "react-ethereum",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.8.1",
     "mocha": "^7.0.0",
+    "next": "^4.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "solc": "^0.4.17",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.0.0-beta.26"
