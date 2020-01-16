@@ -11,7 +11,7 @@ if (typeof window !== "undefined") {
     console.log("custom provider");
   }
 } else {
-  const provider = new Web3.providers.HttpProvider(KEY);
+  const provider = new Web3.providers.HttpProvider(process.env.KEY);
   web3 = new Web3(provider);
   console.log("infura");
 }
