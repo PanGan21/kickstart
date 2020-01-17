@@ -1,0 +1,13 @@
+version: "3"
+services:
+  kickstart:
+    container_name: dapp
+    ports:
+      - "3000:3000"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./kickstart:/app
+      - /app/node_modules
+      - /app/.next
